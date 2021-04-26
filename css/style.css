@@ -1,0 +1,135 @@
+body,html{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	background: #ffffff;
+	color: #000000;
+	font: 18px Helvetica,sans-serif;
+	z-index: 100;
+}
+
+#content{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	background: #ffffff;
+	color: #000000;
+	font: 18px Helvetica,sans-serif;
+	z-index: 100;
+	overflow: hidden;	
+}
+
+.heading1{
+	position: relative;
+	margin: 0px;
+	margin-top: 50px;
+	padding: 0px;
+	padding-left: 20px;
+	background: #ffffff;
+	color: #000000;
+	font: bold 35px Helvetica,sans-serif;
+	z-index: 100;
+}
+
+#branding{
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	z-index: 999;
+}
+
+.heading2{
+	position: relative;
+	margin: 0px;
+	margin-top: 30px;
+	padding: 0px;
+	padding-left: 20px;
+	background: #ffffff;
+	color: #000000;
+	font: 25px Helvetica,sans-serif;
+	z-index: 100;
+}
+
+.linkhtml{
+	position: relative;
+	margin: 0px;
+	margin-top: 10px;
+	padding: 0px;
+	padding-left: 40px;
+	background: #ffffff;
+	color: #000000;
+	font: 18px Helvetica,sans-serif;
+	cursor: crosshair;
+	z-index: 100;
+}
+
+.linkhtml:hover{
+	background: #ffffff;
+	color: #ff0000;
+}
+
+#vizholder{
+	position: absolute;
+	z-index: 800;
+	margin: 0px;
+	padding: 0px;
+	background: #ffffff;
+	color: #000000;
+	display: none;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+#viz{
+	position: absolute;
+	z-index: 850;
+	margin: 0px;
+	padding: 0px;
+	background: #ffffff;
+	color: #000000;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+}
+
+#vizclose{
+	position: absolute;
+	z-index: 900;
+	margin: 0px;
+	padding: 0px;
+	background: transparent;
+	color: #FF0000;
+	width: 30px;
+	height: 30px;
+	overflow: hidden;
+	font: bold 30px Helvetica,sans-serif;
+	line-height: 30px;
+	top: 5px;
+	right: 5px;
+}
+
+.link{
+	stroke: #666666;
+	fill: none;
+}
+
+.node{
+	stroke: #666666;
+	fill: #ffffff;
+}
+
+.nodetext{
+  stroke: none;
+  fill: #FF0000;
+  font-size: 18px;
+  font-family: Helvetica;
+  text-anchor: middle;
+  alignment-baseline: middle;
+}
